@@ -4,9 +4,13 @@ Listen and work with an nf queue socket.
 
 ## Usage
 
-Allows to pipe raw packets: 
+Allows to pipe raw packets to tcpdump: 
 ```bash
 nfviewer -q 3 -w  2> /dev/null | tcpdump -r -
+```
+Same with Wireshark:
+```bash
+nfviewer -q 3 -w 2> /dev/null | wireshark -k -i -
 ```
 
 Or write to a pcap: 
