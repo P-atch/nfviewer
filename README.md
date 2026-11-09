@@ -2,6 +2,9 @@
 
 Listen and work with an nf queue socket.
 
+<img width="926" height="306" alt="image" src="https://github.com/user-attachments/assets/c726b3e7-8c11-4afd-9070-2275446ca110" />
+
+
 ## Usage (as root)
 
 ```bash
